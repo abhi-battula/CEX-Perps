@@ -1,0 +1,23 @@
+{
+  "name": "engine",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^25.9.1",
+    "bun-types": "^1.3.14"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@types/redis": "^4.0.11",
+    "redis": "^5.12.1",
+    "zod": "^4.4.3",
+    "@repo/common": "workspace:*"
+  }
+}

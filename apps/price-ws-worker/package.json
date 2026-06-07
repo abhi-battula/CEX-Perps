@@ -1,0 +1,21 @@
+{
+  "name": "price-ws-worker",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/redis": "^4.0.11"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "redis": "^5.12.1",
+    "ws": "^8.21.0"
+  }
+}
